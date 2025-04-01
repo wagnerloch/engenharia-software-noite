@@ -7,6 +7,9 @@ import { Util } from "./Util";
 const teclado = prompt();
 
 console.log("=== Batalha de Personagens ===");
+console.log("=== Versão 1.0.0 ===");
+console.log("=== Desenvolvido por: ===");
+console.log("=== Fábio de Melo ===");
 
 let personagens: Personagem[] = [];
 personagens.push(new Priest("Fábio de Melo"));
